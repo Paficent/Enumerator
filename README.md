@@ -8,7 +8,7 @@ Install enumerator via [wally](https://wally.run)
 # wally.toml
 
 [dependencies]
-Enum = "paficent/Enumerator@1.0.2"
+Enum = "paficent/Enumerator@1.0.3"
 ```
 
 ```shell
