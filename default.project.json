@@ -1,6 +1,20 @@
 {
   "name": "Enumerator",
   "tree": {
-    "$path": "src"
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Enumerator": {
+        "$path": "src"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "test"
+      }
+    }
   }
 }

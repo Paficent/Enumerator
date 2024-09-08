@@ -8,7 +8,7 @@ Install enumerator via [wally](https://wally.run)
 # wally.toml
 
 [dependencies]
-Enum = "paficent/Enumerator@1.0.1"
+Enum = "paficent/Enumerator@1.0.2"
 ```
 
 ```shell
@@ -29,7 +29,7 @@ Enumerator is a flexible and efficient module designed for managing enumerations
 
 ## Documentation
 
-For detailed information on how to use the Enumerator module, including API references and usage examples, visit the [Enumerator Documentation](https://example.com/enum-docs).
+For detailed information on how to use the Enumerator module, including API references and usage examples, visit the [Enumerator Documentation](https://paficent.github.io/Enumerator/).
 
 ## Contributions
 

@@ -1,0 +1,13 @@
+title = "Enumerator"
+gitRepoUrl = "https://github.com/Paficent/Enumerator"
+
+gitSourceBranch = "master"
+classOrder = []
+
+[docusaurus]
+onBrokenLinks = "throw"
+onBrokenMarkdownLinks = "warn"
+
+[footer]
+style = "dark"
+copyright = "Copyright © 2024 Paficent. Built with Moonwave and Docusaurus"

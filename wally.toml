@@ -1,7 +1,7 @@
 [package]
 name = "paficent/enumerator"
-version = "1.0.1"
+version = "1.0.2"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
-[dependencies]
+exclude = [".vscode", "test", ".gitattributes", ".gitignore", "default.project.json", "dev.project.json", "moonwave.toml", "rokit.toml", "selene.toml"]

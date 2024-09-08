@@ -1,1 +1,1 @@
-{"name":"Enumerator","className":"ModuleScript","filePaths":["src\\init.luau","default.project.json"]}
+{"name":"Enumerator","className":"DataModel","filePaths":["default.project.json"],"children":[{"name":"ReplicatedStorage","className":"ReplicatedStorage","children":[{"name":"Enumerator","className":"ModuleScript","filePaths":["src\\init.luau"]}]},{"name":"StarterPlayer","className":"StarterPlayer","children":[{"name":"StarterPlayerScripts","className":"StarterPlayerScripts","children":[{"name":"strict","className":"ModuleScript","filePaths":["test\\strict.luau"]}]}]}]}
