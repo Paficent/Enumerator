@@ -1,0 +1,7 @@
+{
+    "workbench.editor.customLabels.patterns": {
+        "**/init*.luau": "${dirname} - ${filename}.${extname}",
+        "**/init*.lua": "${dirname} - ${filename}.${extname}"
+    },
+    "luau-lsp.types.robloxSecurityLevel": "LocalUserSecurity"
+}
