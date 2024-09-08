@@ -1,4 +1,4 @@
-# Enumerator - Robust Enum Management for Luau
+# Enumerator - Robust Luau Enum Management
 
 ## Installation
 
