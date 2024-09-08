@@ -1,4 +1,4 @@
-# Enumerator - Enum Management Module for Roblox and Luau
+# Enumerator - Robust Enum Management for Luau
 
 ## Installation
 
