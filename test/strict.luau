@@ -16,26 +16,22 @@ local Fruits: Enumerator.Enum<FruitEnum> = Enumerator.new("Fruits", {
 	Cherry = 3,
 })
 
--- Example: Accessing an EnumItem with type safety
 local appleItem: Enumerator.EnumItem<FruitEnum> = Fruits.Apple
-print(appleItem.Name) -- Output: "Apple"
-print(appleItem.Value) -- Output: 1
+print(appleItem.Name) -- Apple
+print(appleItem.Value) -- 1
 
--- Example: Using methods with type safety
 -- The `GetItems` method returns a table of `EnumItem<FruitEnum>`
-local allFruitItems: { Enumerator.EnumItem<FruitEnum> } = Fruits:GetItems()
-for _, item in allFruitItems do
-	print(item.Name, item.Value) -- Output: "Apple 1", "Banana 2", "Cherry 3"
+local allItems: { Enumerator.EnumItem<FruitEnum> } = Fruits:GetItems()
+for _, item in allItems do
+	print(item.Name, item.Value) -- Apple 1, Banana 2, Cherry 3
 end
 
--- Example: Using `GetItemByValue` with type safety
 -- It is expected to return an `EnumItem<FruitEnum>` or `nil`
 local bananaItem: Enumerator.EnumItem<FruitEnum>? = Fruits:GetItemByValue(2)
 if bananaItem then
-	print(bananaItem.Name) -- Output: "Banana"
+	print(bananaItem.Name) -- Banana
 end
 
--- Example: Using `GetItemByName` with type safety
 -- It is expected to return an `EnumItem<FruitEnum>` or `nil`
 local cherryItem: Enumerator.EnumItem<FruitEnum> = Fruits:GetItemByName("Cherry")
-print(cherryItem.Value) -- Output: 3
+print(cherryItem.Value) -- 3

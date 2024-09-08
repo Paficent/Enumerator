@@ -94,7 +94,7 @@ end
     ```lua
     local allItems: { Enumerator.EnumItem<FruitEnum> } = Fruits:GetItems()
     for _, item in allItems do
-        print(item.Name, item.Value) -- Output: "Apple 1", "Banana 2", "Cherry 3"
+        print(item.Name, item.Value) -- Apple 1, Banana 2, Cherry 3
     end
     ```
 ]=]
@@ -121,7 +121,7 @@ end
     ```lua
     local bananaItem: Enumerator.EnumItem<FruitEnum>? = Fruits:GetItemByValue(2)
     if bananaItem then
-        print(bananaItem.Name) -- Output: "Banana"
+        print(bananaItem.Name) -- Banana
     end
     ```
 ]=]
@@ -141,10 +141,8 @@ end
     @return EnumItem<CustomEnum>? -- The enum item with the specified value, or nil if not found.
 
     ```lua
-    local bananaItem: Enumerator.EnumItem<FruitEnum>? = Fruits:GetItemByValue(2)
-    if bananaItem then
-        print(bananaItem.Name) -- Output: "Banana"
-    end
+    local cherryItem: Enumerator.EnumItem<FruitEnum> = Fruits:GetItemByName("Cherry")
+    print(cherryItem.Value) -- 3
     ```
 ]=]
 function Enumerator.prototype:GetItemByValue<CustomEnum>(value: number): EnumItem<CustomEnum>?
