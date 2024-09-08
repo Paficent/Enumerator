@@ -37,4 +37,4 @@ Contributions are welcome and greatly appreciated. Feel free to open issues, sub
 
 ## License
 
-Enumerator is licensed under the MIT License. For more details, see the [LICENSE.md](LICENSE.md) file.
+Enumerator is licensed under the MIT License. For more details, see the [LICENSE.md](https://github.com/Paficent/Enumerator/blob/main/LICENSE) file.
