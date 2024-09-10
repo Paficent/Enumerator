@@ -4,7 +4,7 @@
     @class Enumerator
     @__index prototype
 
-    Enumerator is a flexible and efficient module designed for managing enumerations in Luau projects. It provides a clean and structured approach to do enum management and enhance code clarity.
+    Enumerator is a flexible and efficient module designed for managing enumerations in Luau projects.
 
 
     [Example Usage](https://github.com/Paficent/Enumerator/blob/main/test/strict.luau)
@@ -13,8 +13,6 @@
 --[=[
     @type Item<CustomEnum> { {EnumType: CustomEnum, Name: string, Value: number} }
     @within Enumerator
-
-    [Example Usage](https://github.com/Paficent/Enumerator/blob/main/test/strict.luau)
 ]=]
 
 local Item = {}
