@@ -50,10 +50,7 @@ end
 local Enumerator = { prototype = {} }
 Enumerator.__metamethods = {
 	__index = function(self, key)
-		if self._values[key] then
-			return Item.new(key, self._values[key], self)
-		end
-		return Enumerator.prototype[key]
+		return if self._values[key] then Item.new(key, self._values[key], self) else Enumerator.prototype[key]
 	end,
 	__tostring = function(self)
 		return self._type
